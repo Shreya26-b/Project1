@@ -1,0 +1,35 @@
+.mainweb {
+    margin-top: 150px;
+  }
+  .websiteName {
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+  }
+  .caption {
+    padding-left: 300px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Homemade Apple', cursive;
+  }
+  .navbart {
+    padding-left: 1000px;
+    display: inline-block;
+  }
+  .container {
+    height: 350px;
+    width: 300px;
+    border: solid 1mm;
+    border-radius: 10%;
+    align-content: center;
+  }
+  .ctitle {
+    color: #000;
+    text-align: center;
+  }
+  .Elementpage {
+    margin-top: 150px;
+  }
+  .card {
+    margin-top: 100px;
+  }
