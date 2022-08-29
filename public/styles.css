@@ -1,35 +1,88 @@
 .mainweb {
-    margin-top: 150px;
-  }
-  .websiteName {
-    font-size: 150px;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-  }
-  .caption {
-    padding-left: 300px;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Homemade Apple', cursive;
-  }
-  .navbart {
-    padding-left: 1000px;
-    display: inline-block;
-  }
-  .container {
-    height: 350px;
-    width: 300px;
-    border: solid 1mm;
-    border-radius: 10%;
-    align-content: center;
-  }
-  .ctitle {
-    color: #000;
-    text-align: center;
-  }
-  .Elementpage {
-    margin-top: 150px;
-  }
-  .card {
-    margin-top: 100px;
-  }
+  margin-top: 150px;
+}
+
+.websiteName {
+  font-size: 150px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+.caption {
+  padding-left: 300px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Homemade Apple', cursive;
+}
+
+.navbart {
+  padding-left: 1000px;
+  display: inline-block;
+}
+
+.container {
+  height: 350px;
+  width: 300px;
+  border: solid 1mm;
+  border-radius: 10%;
+  align-content: center;
+}
+
+.ctitle {
+  color: #000;
+  text-align: center;
+}
+
+.Elementpage {
+  margin-top: 150px;
+}
+
+.card {
+  margin-top: 100px;
+}
+
+.org {
+  text-align: center;
+  margin-top: 250px;
+  margin-bottom: 150px;
+  font-size: 75px;
+  font-style: italic;
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+hr {
+  border-style: none;
+  border-top-style: none;
+  border-width: 5px;
+  margin-top: 40px;
+  width: 100%;
+  border-color: black;
+  align-self: center;
+}
+
+.container1 {
+  height: 600px;
+  width: 500px;
+  border: solid 1mm;
+  border-radius: 10%;
+  align-content: center;
+  text-align: center;
+  border-spacing: 40px;
+}
+.leftbox{
+  border: solid black;
+  height: 600px;
+  float: left;
+  width: 20%;
+  margin-left: 50px;
+}
+.rightbox {
+  margin-right: 100px;
+  float: right;
+  width: 40%;
+  text-align: center;
+}
+.rule {
+  padding-left: 15px;
+  padding-right: 25px;
+}

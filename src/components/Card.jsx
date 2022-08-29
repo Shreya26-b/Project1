@@ -4,6 +4,11 @@ function Card(props) {
         <div className="container">
             <h3 className="ctitle">{props.ctitle}</h3>
             <p>{props.cdetail}</p>
+            <hr />
+            <hr />
+            <hr />
+            <hr />
+            <hr />
         </div>
     </span>
 }

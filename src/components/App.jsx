@@ -1,16 +1,16 @@
-import React from "react";
-import Header from "./Header";
-import Elements from "./Elements";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import Habit from "./Habit";
 function App() {
-    return <div>
-        <Header />
-        <div className='mainweb'>
-        <h1 className='websiteName'>DIARIO</h1>
-        <p className='caption'>track the journey of your life...</p>
-       </div>
-       <Elements />
-    </div>
-    
+    return (
+        <Router>
+            <div className="app">
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/habit" element={<Habit />} />
+                </Routes>
+            </div>
+        </Router>
+    );
 }
-
 export default App;
