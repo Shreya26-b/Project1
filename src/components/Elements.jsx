@@ -1,6 +1,7 @@
 import React from "react";
 import cardData from "../data";
 import Card from "./Card";
+import {Row} from "react-bootstrap";
 function CreateCard(cont) {
     return (
         <Card 
@@ -10,8 +11,8 @@ function CreateCard(cont) {
     );
 }
 function Elements() {
-    return <div className="Elementpage row" id="elements">
+    return <Row className="Elementpage row" id="elements">
         {cardData.map(CreateCard)}
-    </div>
+    </Row>
 }
 export default Elements;

@@ -1,3 +1,8 @@
+.bdy {
+  background: linear-gradient(  rgb(190,221,246), rgb(230,230,255) );
+  /* rgb(190,221,246), rgb(230,230,255) */
+  /* background-color: rgb(223,228,253); */
+}
 .mainweb {
   margin-top: 150px;
 }
@@ -6,8 +11,9 @@
   font-size: 150px;
   text-align: center;
   font-family: 'Dancing Script', cursive;
+  color: deepskyblue;
 }
-
+/* chocolate, cornflowe darkblue*/
 .caption {
   padding-left: 300px;
   text-align: center;
@@ -20,12 +26,12 @@
   display: inline-block;
 }
 
-.container {
+.containerr {
   height: 350px;
   width: 300px;
   border: solid 1mm;
   border-radius: 10%;
-  align-content: center;
+  text-align: center;
 }
 
 .ctitle {
@@ -34,17 +40,24 @@
 }
 
 .Elementpage {
-  margin-top: 150px;
+  margin-top: 250px;
+  margin-bottom: 10px;
+  margin-left: 50px;
 }
 
 .card {
-  margin-top: 100px;
+  margin: 50px;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  width: 300px;
+  border-radius: 10%;
 }
 
 .org {
   text-align: center;
-  margin-top: 250px;
-  margin-bottom: 150px;
+  margin-top: 50px;
+  margin-bottom: 250px;
   font-size: 75px;
   font-style: italic;
   font-family: 'Cedarville Cursive', cursive;
@@ -86,3 +99,13 @@ hr {
   padding-left: 15px;
   padding-right: 25px;
 }
+ img {
+  height: 250px;
+  width: 250px;
+ }
+ .bottom {
+  margin-bottom: 0;
+ }
+ .fp {
+  color: white;
+ }

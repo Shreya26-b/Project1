@@ -2,8 +2,9 @@ import React from "react";
 import Header from "./Header";
 import Elements from "./Elements";
 import Views from "./Views";
+import Footer from "./Footer";
 function Home() {
-    return <div>
+    return <div className="overflow-hidden bdy">
         <Header />
         <div className='mainweb'>
             <h1 className='websiteName'>DIARIO</h1>
@@ -11,6 +12,7 @@ function Home() {
         </div>
         <Elements />
         <Views />
+        <Footer />
     </div>
 
 }

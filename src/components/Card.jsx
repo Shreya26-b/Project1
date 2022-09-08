@@ -1,7 +1,8 @@
 import React from "react";
+import {Col} from "react-bootstrap";
 function Card(props) {
-    return <span className="card col-md-4">
-        <div className="container">
+    return <Col className="card" md={4}>
+        <div className="containerr">
             <h3 className="ctitle">{props.ctitle}</h3>
             <p>{props.cdetail}</p>
             <hr />
@@ -10,6 +11,6 @@ function Card(props) {
             <hr />
             <hr />
         </div>
-    </span>
+    </Col>
 }
 export default Card;
