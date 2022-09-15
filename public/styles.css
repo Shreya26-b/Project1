@@ -1,5 +1,6 @@
-.bdy {
+html, .bdy {
   background: linear-gradient(  rgb(190,221,246), rgb(230,230,255) );
+  scroll-behavior: smooth;
   /* rgb(190,221,246), rgb(230,230,255) */
   /* background-color: rgb(223,228,253); */
 }
@@ -42,7 +43,7 @@
 .Elementpage {
   margin-top: 250px;
   margin-bottom: 10px;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 
 .card {
@@ -56,8 +57,9 @@
 
 .org {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 250px;
+  margin-top: 220px;
+  padding-top: 80px;
+  margin-bottom: 150px;
   font-size: 75px;
   font-style: italic;
   font-family: 'Cedarville Cursive', cursive;
@@ -108,4 +110,20 @@ hr {
  }
  .fp {
   color: white;
+ }
+ .navbr {
+  margin-right: 0px;
+  margin-left: auto;
+ }
+ .header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+ }
+ .header-bg {
+  background-color: rgba(255, 255, 255);
+ }
+ #clr {
+  color: blue;
  }

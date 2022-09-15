@@ -10,9 +10,11 @@ function CreateCard(cont) {
     );
 }
 function Views() {
-    return <div className="Elementpage row" id="elements">
+    return <div id="views">
         <h1 className="org"><strong>You write we organize...</strong></h1>
+        <div className="Elementpage row">
         {viewData.map(CreateCard)}
+        </div>
     </div>
 }
 export default Views;

@@ -4,7 +4,7 @@ import Elements from "./Elements";
 import Views from "./Views";
 import Footer from "./Footer";
 function Home() {
-    return <div className="overflow-hidden bdy">
+    return <div className="overflow-hidden bdy" id="home">
         <Header />
         <div className='mainweb'>
             <h1 className='websiteName'>DIARIO</h1>

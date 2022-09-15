@@ -1,7 +1,7 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 function Footer() {
-    return <footer className="text-center text-lg-start">
+    return <footer className="text-center text-lg-start" id="foots">
     <div className="container p-4">
       <div className="row">
         <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
